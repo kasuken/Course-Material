@@ -14,6 +14,11 @@
 - [Tower Game](https://www.towergame.app/)
 - [Periodex](https://appsco.pe/app/periodex)
 - [TomatoNow](https://tomatenow.hoseinh.com/)
+- [Financial Times](https://app.ft.com/)
+
+## PWA lists
+- [PwaRocks](https://pwa.rocks)
+- [Appscope](https://appsco.pe/)
 
 ## Tools
 - [Webhint.io](https://webhint.io)
