@@ -9,7 +9,7 @@ body {
     background: url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: wheat;
+    color: white;
 }
 
 .app {
@@ -18,6 +18,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 header h1 {
@@ -34,54 +36,64 @@ header p {
 }
 
 .pads {
-    background: lightblue;
-    width: 70%;
-    box-shadow: 10px 10px 20px black;
-    margin-bottom: 450px;
+    background: transparent;
+    width: 70vw;
+    box-shadow: 8px 15px 25px 2px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.pad-top {
-    display: flex;
-}
-
+.pad-top,
 .pad-bottom {
     display: flex;
 }
 
-.pad-top>div {
-    height: 100px;
-    width: 100px;
-    flex: 1;
-}
-
+.pad-top>div,
 .pad-bottom>div {
     height: 100px;
     width: 100px;
     flex: 1;
 }
 
+.pad {
+    transition: all 0.1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+.pad:active,
+.pad:focus {
+    transform: translateY(3px);
+    box-shadow: 4px 5px 10px 6px inset rgba(0,0,0,0.2);
+}
+
+.pad:hover {
+    cursor: pointer;
+    box-shadow: 2px 3px 6px 2px inset rgba(0,0,0,0.1);
+}
+
 .pad1 {
-    background: #60d394;
+    background: #26de81;
 }
 
 .pad2 {
-    background: #d36060;
+    background: #fc5c65;
 }
 
 .pad3 {
-    background: #c060d3;
+    background: #a55eea;
 }
 
 .pad4 {
-    background: #d3d160;
+    background: #fed330;
 }
 
 .pad5 {
-    background: #606bd3;
+    background: #4b7bec;
 }
 
 .pad6 {
-    background: #60c2d3;
+    background: #0fb9b1;
 }
 
 @media (max-width: 480px) {
