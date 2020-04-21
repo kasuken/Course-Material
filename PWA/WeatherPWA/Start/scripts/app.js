@@ -129,7 +129,7 @@ function renderForecast(card, data) {
  * @return {Object} The weather forecast, if the request fails, return null.
  */
 function getForecastFromNetwork(coords) {
-  return fetch(`/forecast/${coords}`)
+  return fetch(`https://weatherservicepwa.azurewebsites.net/api/forecast/${coords}`)
     .then((response) => {
       return response.json();
     })

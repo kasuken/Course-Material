@@ -56,9 +56,9 @@ function removeLocation(evt) {
  */
 function renderForecast(card, data) {
 
-  if (lastUpdated >= data.currently.time) {
-    return;
-  }
+  // if (lastUpdated >= data.currently.time) {
+  //   return;
+  // }
 
   if (!data) {
     // There's no data, skip the update.
@@ -134,7 +134,8 @@ function renderForecast(card, data) {
  * @return {Object} The weather forecast, if the request fails, return null.
  */
 function getForecastFromNetwork(coords) {
-  return fetch(`/forecast/${coords}`)
+  //return fetch(`https://weatherservicepwa.azurewebsites.net/api/forecast/${coords}`)
+  return fetch(`https://weatherservicepwa.azurewebsites.net/api/forecast?location=${coords}`)
     .then((response) => {
       return response.json();
     })
@@ -154,7 +155,9 @@ function getForecastFromCache(coords) {
   if (!('caches' in window)) {
     return null;
   }
-  const url = `${window.location.origin}/forecast/${coords}`;
+
+  //const url = `${window.location.origin}/forecast?location=${coords}`;
+  const url = `https://weatherservicepwa.azurewebsites.net/api/forecast?location=${coords}`;
   return caches.match(url)
     .then((response) => {
       if (response) {
