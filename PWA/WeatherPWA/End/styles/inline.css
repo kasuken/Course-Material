@@ -32,6 +32,10 @@ body {
   body {
     background-color: yellow;
   }
+
+  .header {
+    display: none !important;
+  }
 }
 
 /**
