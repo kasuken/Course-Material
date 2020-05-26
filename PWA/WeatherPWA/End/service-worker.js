@@ -78,6 +78,7 @@ self.addEventListener('fetch', (evt) => {
       }));
     return;
   }
+  
   evt.respondWith(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.match(evt.request)
