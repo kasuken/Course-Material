@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PythonForDotNetDeveloper.Language", "PythonForDotNetDeveloper.Language\PythonForDotNetDeveloper.Language.csproj", "{1419030D-9A6B-4B8E-8E83-B6774A993FED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PythonForDotNetDeveloper.WebApp", "PythonForDotNetDeveloper.WebApp\PythonForDotNetDeveloper.WebApp.csproj", "{7400236F-8FD9-495A-B42A-0B946CFC7855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonForDotNetDeveloper.NuGet", "PythonForDotNetDeveloper.NuGet\PythonForDotNetDeveloper.NuGet.csproj", "{15532C3C-2BC5-427E-87DC-C3C1897451EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1419030D-9A6B-4B8E-8E83-B6774A993FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1419030D-9A6B-4B8E-8E83-B6774A993FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1419030D-9A6B-4B8E-8E83-B6774A993FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1419030D-9A6B-4B8E-8E83-B6774A993FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7400236F-8FD9-495A-B42A-0B946CFC7855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7400236F-8FD9-495A-B42A-0B946CFC7855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7400236F-8FD9-495A-B42A-0B946CFC7855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7400236F-8FD9-495A-B42A-0B946CFC7855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15532C3C-2BC5-427E-87DC-C3C1897451EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15532C3C-2BC5-427E-87DC-C3C1897451EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15532C3C-2BC5-427E-87DC-C3C1897451EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15532C3C-2BC5-427E-87DC-C3C1897451EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEB88CE6-56EB-45C1-9A5A-6659FCF727A4}
+	EndGlobalSection
+EndGlobal
