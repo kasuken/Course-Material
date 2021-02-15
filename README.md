@@ -2,4 +2,5 @@
 
 [PWA - Progressive Web Apps](/PWA)
 
-[ASP.NET Core](/ASPNET-Core)
+[Python for C# Developers](/PythonForCSharpDevelopers)
+
